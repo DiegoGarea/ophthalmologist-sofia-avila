@@ -5,7 +5,7 @@ import {hamburguer, logo} from '../assets';
 
 const Navbar = () => {
   return (
-    <nav className={`${styles.paddingX} bg-[#c2d9ff] fixed top-0 w-full py-5`}>
+    <nav className={`${styles.paddingX} bg-[#c2d9ff] fixed top-0 w-full py-5 z-20`}>
       <div className="flex justify-between items-center max-w-7xl mx-auto">
         <Link
           to="/"
