@@ -14,22 +14,18 @@ const Navbar = () => {
           className="flex items-center"
           onClick={window.scrollTo(0, 0)}
         >
-          <img
-            src={logo}
-            alt="logo"
-            className="w-10 h-10 mx-4 rounded-full object-contain"
-          />
+          <img src={logo} alt="logo" className="w-10 h-10 mx-4 rounded-full" />
           <p>Dra. Sofia Avila</p>
         </Link>
-        <ul className="hidden sm:flex flex-row gap-10 ">
+        <ul className="hidden sm:flex gap-10">
           {navLinks.map((link) => (
             <li key={link.id}>
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
         </ul>
-        <div>
-          <img className="sm:hidden" src={hamburguer} alt="hamburger" />
+        <div className="sm:hidden">
+          <img src={hamburguer} alt="hamburger" />
         </div>
       </div>
     </nav>
