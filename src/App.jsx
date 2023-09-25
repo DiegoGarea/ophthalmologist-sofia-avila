@@ -1,15 +1,15 @@
-import {Navbar, Hero, About, Testimonials, Contact, Footer} from './components';
+import {Navbar, Hero, About, Services, Contact, Footer} from './components';
 import {BrowserRouter} from 'react-router-dom';
 
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0 ">
+      <div className="relative z-0 bg-[#FFF6E9]">
         <div className="relative">
           <Navbar />
           <Hero />
           <About />
-          <Testimonials />
+          <Services />
           <div className="relative">
             <Contact />
             <Footer />
