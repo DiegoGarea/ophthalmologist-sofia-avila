@@ -1,6 +1,6 @@
 import {styles} from '../styles';
 
-const secctionWrapper = (Component, idName) =>
+const SectionWrapper = (Component, idName) =>
   function HOC() {
     return (
       <section className={`${styles.padding} max-w-7xl mx-auto relative z-0`}>
@@ -12,4 +12,4 @@ const secctionWrapper = (Component, idName) =>
     );
   };
 
-export default secctionWrapper;
+export default SectionWrapper;
