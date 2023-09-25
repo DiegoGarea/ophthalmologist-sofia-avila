@@ -1,8 +1,8 @@
 import Navbar from './Navbar';
 import Hero from './Hero';
 import About from './About';
-import Testimonials from './Testimonials';
+import Services from './Services';
 import Contact from './Contact';
 import Footer from './Footer';
 
-export {Navbar, Hero, About, Testimonials, Contact, Footer};
+export {Navbar, Hero, About, Services, Contact, Footer};

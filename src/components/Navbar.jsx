@@ -12,7 +12,7 @@ const Navbar = () => {
         <Link
           to="/"
           className="flex items-center"
-          onClick={window.scrollTo(0, 0)}
+          onClick={()=>{window.scrollTo(0, 0)}}
         >
           <img src={logo} alt="logo" className="w-10 h-10 mx-4 rounded-full" />
           <p>Dra. Sofia Avila</p>
