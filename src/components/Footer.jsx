@@ -4,7 +4,7 @@ import {fadeIn} from '../utils/motion';
 
 const Footer = () => {
   return (
-    <footer className="h-[500px] w-full bg-[#c2d9ff] p-5  sm:h-[140px]">
+    <footer className="h-[500px] w-full bg-gradient-to-r from-cyan-500 to-blue-500 p-5  sm:h-[140px]">
       <motion.div
         className="sm:flex sm:flex-row-reverse sm:items-center sm:max-w-7xl h-full justify-between sm:mx-auto"
         variants={fadeIn('', '', 0.2, 0.75)}
@@ -43,7 +43,7 @@ const Footer = () => {
             </bottom>
           </div>
         </div>
-        <div className="flex flex-col text-center text-md rounded-lg ">
+        <div className="flex flex-col text-white font-semibold text-center text-md rounded-lg ">
           <h4>CEDULA MEDICO GENERAL:000000000</h4>
           <h4>CEDULA DE ESPECIALIDAD:000000000</h4>
           <h4>AVISO DE PUBLICIDAD:000000000</h4>

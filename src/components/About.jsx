@@ -19,7 +19,7 @@ const About = () => {
         />
       </div>
       <motion.div
-        className="bg-[#c2d9ff] p-5 rounded-lg"
+        className="bg-blue-400 p-7 sm:p-14 rounded-lg"
         variants={fadeIn('', '', 0.2, 1)}
         initial="hidden"
         whileInView="show"

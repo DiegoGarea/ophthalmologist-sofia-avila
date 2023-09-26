@@ -6,7 +6,7 @@ import {hamburguer, logo} from '../assets';
 const Navbar = () => {
   return (
     <nav
-      className={`${styles.paddingX} bg-gradient-to-r from-cyan-500 to-blue-500 fixed top-0 w-full py-5 z-20`}
+      className={`${styles.paddingX} bg-gradient-to-r from-cyan-500 to-blue-500 fixed top-0 w-full py-5 z-20 shadow-md shadow-slate-500`}
     >
       <div className="flex justify-between items-center max-w-7xl mx-auto">
         <Link
@@ -17,9 +17,9 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="w-10 h-10 mx-4 rounded-full" />
-          <p>Dra. Sofia Avila</p>
+          <p className="text-white text-lg font-bold">Dra. Sofia Avila</p>
         </Link>
-        <ul className="hidden sm:flex gap-10">
+        <ul className="hidden sm:flex gap-10 text-white font-bold text-lg">
           {navLinks.map((link) => (
             <li key={link.id}>
               <a href={`#${link.id}`}>{link.title}</a>

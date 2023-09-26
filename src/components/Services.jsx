@@ -41,7 +41,7 @@ const ServiceCard = ({image, title, description, index}) => {
         <div className="relative flex flex-col items-center w-[300px] h-[400px] bg-blue-400 rounded-lg p-5">
           <p>{description}</p>
           <button
-            className="absolute w-full h-12 bg-orange-400 bottom-0 rounded-b-lg"
+            className="absolute w-full h-12 bg-[#3dd4cc] bottom-0 rounded-b-lg"
             onClick={handleClick}
           >
             Volver
@@ -59,7 +59,10 @@ const Services = () => {
         <h2 className={`${styles.sectionHeadText} text-center`}>Servicios</h2>
       </motion.div> */}
       <div className="mb-10">
-        <TypingText title="Servicios" textStyles={`${styles.sectionHeadText} text-center`}/>
+        <TypingText
+          title="Servicios"
+          textStyles={`${styles.sectionHeadText} text-center`}
+        />
       </div>
       <div className="flex flex-col items-center sm:flex-row sm:place-content-evenly gap-5">
         {services.map((service, index) => (

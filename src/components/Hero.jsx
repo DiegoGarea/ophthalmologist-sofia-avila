@@ -15,14 +15,10 @@ const Hero = () => {
       >
         <img src={person} alt="person" className="w-[500px] rounded-full" />
         <div>
-          <h1 className={`${styles.heroHeadText} text-black text-center`}>
-            Hi There
-          </h1>
-          <p className={`${styles.heroSubText} text-black`}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-            fuga voluptatum enim, assumenda vel accusantium aspernatur ipsa odio
-            iste odit natus, quaerat voluptate mollitia. Nisi pariatur nam
-            exercitationem in ut.
+          <h1 className={`${styles.heroHeadText} text-center`}>Hola!</h1>
+          <p className={`${styles.heroSubText} text-[#f3fffc] `}>
+            Soy la Dra. Sofía Ávila, oftalmóloga. Estoy aquí para cuidar de tu
+            salud visual. Si tienes alguna pregunta no dudes en contactarme.
           </p>
         </div>
       </motion.div>

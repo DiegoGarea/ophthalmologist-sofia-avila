@@ -4,7 +4,7 @@ import {BrowserRouter} from 'react-router-dom';
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-[#FFF6E9]">
+      <div className="relative z-0">
         {/* <div className="relative"> */}
         <div className="bg-[url('/src/assets/hero.jpg')] bg-cover bg-no-repeat bg-center">
           <Navbar />
