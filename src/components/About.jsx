@@ -13,7 +13,10 @@ const About = () => {
         </h2>
       </motion.div> */}
       <div className="mb-10">
-        <TypingText title="Conoceme" textStyles={`${styles.sectionHeadText} text-center`}/>
+        <TypingText
+          title="Conoceme"
+          textStyles={`${styles.sectionHeadText} text-center`}
+        />
       </div>
       <motion.div
         className="bg-[#c2d9ff] p-5 rounded-lg"
@@ -22,13 +25,16 @@ const About = () => {
         whileInView="show"
       >
         <p className={`${styles.sectionSubText}`}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
-          praesentium qui. Et temporibus ducimus id architecto debitis
-          doloremque voluptatem ipsum fuga quaerat, voluptas facilis aliquid sed
-          omnis sequi porro officiis. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Eligendi, aspernatur quasi expedita ab distinctio,
-          hic tempore veniam repudiandae dolores ipsam temporibus nulla iure
-          accusamus illo nobis dolore facilis. Ullam, et.
+          Permítanme presentarme, soy la Doctora Sofía Ávila, una oftalmóloga
+          dedicada y apasionada por el cuidado de la salud visual. Mi compromiso
+          inquebrantable es atender a cada paciente con el corazón y la
+          experiencia que han sido el fundamento de mi carrera. Mi enfoque no se
+          limita solo a tratar las condiciones oculares, sino a comprender las
+          necesidades únicas de cada individuo. Creo firmemente que la atención
+          médica debe ser personalizada y empática. Por lo tanto, no solo les
+          ofrezco tratamientos avanzados, sino también apoyo emocional y
+          educación para que mis pacientes tomen decisiones informadas sobre su
+          salud visual.
         </p>
       </motion.div>
     </>

@@ -1,10 +1,16 @@
 import {motion} from 'framer-motion';
 import {whatsapp, facebook, instagram} from '../assets';
+import {fadeIn} from '../utils/motion';
 
 const Footer = () => {
   return (
-    <motion.footer className="h-[500px] w-full bg-[#c2d9ff] p-5  sm:h-[140px]">
-      <div className="sm:flex sm:flex-row-reverse sm:items-center sm:max-w-7xl justify-between sm:mx-auto">
+    <footer className="h-[500px] w-full bg-[#c2d9ff] p-5  sm:h-[140px]">
+      <motion.div
+        className="sm:flex sm:flex-row-reverse sm:items-center sm:max-w-7xl justify-between sm:mx-auto"
+        variants={fadeIn('', '', 0.2, 0.75)}
+        initial="hidden"
+        whileInView="show"
+      >
         <div className="sm:flex sm:h-[125px]">
           <button
             onClick={() => window.open('https://wa.me/+523314662319', '_blank')}
@@ -44,8 +50,8 @@ const Footer = () => {
           <p>Correo: dsofiaavilam@gmail.com</p>
           <a href="">web design</a>
         </div>
-      </div>
-    </motion.footer>
+      </motion.div>
+    </footer>
   );
 };
 

@@ -14,6 +14,8 @@ import facebook from './facebook.png';
 import hamburguer from './hamburger.svg';
 import close from './close.svg';
 
+import letras from './letras.png';
+
 export {
   logo,
   hero,
@@ -23,6 +25,7 @@ export {
   service1,
   service2,
   service3,
+  letras,
   facebook,
   instagram,
   whatsapp,
