@@ -1,5 +1,7 @@
 import logo from './logo.jpg';
+
 import person from './person.png';
+import hero from './hero.jpg';
 
 import service1 from './service1.png';
 import service2 from './service2.png';
@@ -14,6 +16,7 @@ import close from './close.svg';
 
 export {
   logo,
+  hero,
   person,
   hamburguer,
   close,

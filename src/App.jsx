@@ -5,16 +5,18 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-[#FFF6E9]">
-        <div className="relative">
+        {/* <div className="relative"> */}
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Hero />
-          <About />
-          <Services />
-          <div className="relative">
-            <Contact />
-            <Footer />
-          </div>
         </div>
+        <About />
+        <Services />
+        <div className="relative">
+          {/* <Contact /> */}
+          <Footer />
+        </div>
+        {/* </div> */}
       </div>
     </BrowserRouter>
   );
