@@ -1,6 +1,6 @@
 import logo from './logo.jpg';
 
-import person from './person.png';
+import person from './person.jpg';
 import hero from './hero.jpg';
 
 import service1 from './service1.png';
