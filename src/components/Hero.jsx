@@ -13,7 +13,7 @@ const Hero = () => {
         initial="hidden"
         whileInView="show"
       >
-        <img src={person} alt="person" className="w-[500px]" />
+        <img src={person} alt="person" className="w-[500px] rounded-full" />
         <div>
           <h1 className={`${styles.heroHeadText} text-black`}>Hi There</h1>
           <p className={`${styles.heroSubText} text-black`}>

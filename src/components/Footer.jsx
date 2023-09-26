@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="sm:flex sm:h-[125px]">
           <button
             onClick={() => window.open('https://wa.me/+523314662319', '_blank')}
-            className="w-full bg-green-600 flex justify-center items-center rounded-lg mb-5 sm:w-[33%] sm:mr-[10px] overflow-hidden"
+            className="w-full bg-[#29a71a] flex justify-center items-center rounded-lg mb-5 sm:w-[33%] sm:mr-[10px] overflow-hidden"
           >
             <img src={whatsapp} alt="whatsapp" className="w-[120px]" />
           </button>
@@ -31,7 +31,7 @@ const Footer = () => {
                   '_blank'
                 )
               }
-              className="w-[48%] bg-blue-600 flex justify-center rounded-lg"
+              className="w-[48%] bg-[#1976d2] flex justify-center rounded-lg"
             >
               <img src={facebook} alt="facebook" className="w-[120px]" />
             </bottom>

@@ -5,6 +5,7 @@ import {services} from '../constants';
 import {useState} from 'react';
 import ReactCardFlip from 'react-card-flip';
 import {styles} from '../styles';
+import TypingText from './TypingText';
 
 const ServiceCard = ({image, title, description, index}) => {
   const [isFlipped, setIsFlipped] = useState(false);
@@ -54,9 +55,12 @@ const ServiceCard = ({image, title, description, index}) => {
 const Services = () => {
   return (
     <>
-      <motion.div className="mb-10">
+      {/* <motion.div className="mb-10">
         <h2 className={`${styles.sectionHeadText} text-center`}>Servicios</h2>
-      </motion.div>
+      </motion.div> */}
+      <div className="mb-10">
+        <TypingText title="Servicios" textStyles={`${styles.sectionHeadText} text-center`}/>
+      </div>
       <div className="flex flex-col items-center sm:flex-row sm:place-content-evenly gap-5">
         {services.map((service, index) => (
           <ServiceCard key={index} index={index} {...service} />

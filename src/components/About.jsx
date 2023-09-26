@@ -2,15 +2,19 @@ import SectionWrapper from '../hoc/SectionWrapper';
 import {styles} from '../styles';
 import {motion} from 'framer-motion';
 import {fadeIn} from '../utils/motion';
+import TypingText from './TypingText';
 
 const About = () => {
   return (
     <>
-      <motion.div>
+      {/* <motion.div>
         <h2 className={`${styles.sectionHeadText} text-center mb-10`}>
           Conoceme
         </h2>
-      </motion.div>
+      </motion.div> */}
+      <div className="mb-10">
+        <TypingText title="Conoceme" textStyles={`${styles.sectionHeadText} text-center`}/>
+      </div>
       <motion.div
         className="bg-[#c2d9ff] p-5 rounded-lg"
         variants={fadeIn('', '', 0.2, 1)}
