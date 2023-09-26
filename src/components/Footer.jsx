@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="h-[500px] w-full bg-[#c2d9ff] p-5  sm:h-[140px]">
       <motion.div
-        className="sm:flex sm:flex-row-reverse sm:items-center sm:max-w-7xl justify-between sm:mx-auto"
+        className="sm:flex sm:flex-row-reverse sm:items-center sm:max-w-7xl h-full justify-between sm:mx-auto"
         variants={fadeIn('', '', 0.2, 0.75)}
         initial="hidden"
         whileInView="show"
@@ -18,7 +18,7 @@ const Footer = () => {
           >
             <img src={whatsapp} alt="whatsapp" className="w-[120px]" />
           </button>
-          <div className="flex justify-between mb-5">
+          <div className="flex justify-between mb-16 sm:mb-5">
             <bottom
               onClick={() =>
                 window.open(
@@ -43,7 +43,7 @@ const Footer = () => {
             </bottom>
           </div>
         </div>
-        <div className="flex flex-col justify-center text-center text-md h-[43%] rounded-lg">
+        <div className="flex flex-col text-center text-md rounded-lg ">
           <h4>CEDULA MEDICO GENERAL:000000000</h4>
           <h4>CEDULA DE ESPECIALIDAD:000000000</h4>
           <h4>AVISO DE PUBLICIDAD:000000000</h4>
