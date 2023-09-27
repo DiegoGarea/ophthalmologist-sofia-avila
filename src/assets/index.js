@@ -3,6 +3,11 @@ import logo from './logo.jpg';
 import person from './person.png';
 import hero from './hero.jpg';
 
+import lentes from './lentes.png';
+import cruz from './cruz.png';
+import ojo1 from './ojo1.png';
+import ojo2 from './ojo2.png';
+
 import service1 from './service1.png';
 import service2 from './service2.png';
 import service3 from './service3.png';
@@ -20,6 +25,10 @@ export {
   logo,
   hero,
   person,
+  lentes,
+  cruz,
+  ojo1,
+  ojo2,
   hamburguer,
   close,
   service1,

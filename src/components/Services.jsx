@@ -17,6 +17,7 @@ const ServiceCard = ({image, title, description, index}) => {
 
   return (
     <motion.div
+      className="w-full sm:flex justify-center"
       variants={fadeIn('right', 'spring', 0.5 * index, 0.65)}
       initial="hidden"
       whileInView="show"
@@ -27,7 +28,7 @@ const ServiceCard = ({image, title, description, index}) => {
         flipSpeedBackToFront={1.1}
         flipSpeedFrontToBack={1.1}
       >
-        <div className="relative flex flex-col items-center w-[330px] sm:w-[300px]  h-[400px] bg-blue-400 rounded-lg p-5">
+        <div className="relative flex flex-col items-center sm:w-[300px]  h-[400px] bg-blue-400 rounded-lg p-5">
           <img className="w-[250px] h-[250px] mb-6" src={image} alt="" />
           <h3 className="text-2xl">{title}</h3>
           <button
@@ -38,7 +39,7 @@ const ServiceCard = ({image, title, description, index}) => {
           </button>
         </div>
 
-        <div className="relative flex flex-col items-center w-[330px] sm:w-[300px] h-[400px] bg-blue-400 rounded-lg p-5">
+        <div className="relative flex flex-col items-center sm:w-[300px] h-[400px] bg-blue-400 rounded-lg p-5">
           <p>{description}</p>
           <button
             className="absolute w-full h-12 bg-gradient-to-r from-cyan-500 to-blue-500 bottom-0 rounded-b-lg"

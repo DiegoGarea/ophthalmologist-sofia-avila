@@ -5,5 +5,15 @@ import Services from './Services';
 import Contact from './Contact';
 import Footer from './Footer';
 import TypingText from './TypingText';
+import HeroPattern from './HeroPattern';
 
-export {Navbar, Hero, About, Services, Contact, Footer, TypingText};
+export {
+  Navbar,
+  Hero,
+  About,
+  Services,
+  Contact,
+  Footer,
+  TypingText,
+  HeroPattern,
+};
