@@ -7,6 +7,7 @@ import {
   Contact,
   Footer,
 } from './components';
+
 import {BrowserRouter} from 'react-router-dom';
 
 const App = () => {
