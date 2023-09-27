@@ -11,7 +11,7 @@ const Footer = () => {
         initial="hidden"
         whileInView="show"
       >
-        <div className="sm:flex sm:h-[125px]">
+        <div className="sm:flex sm:h-[125px] sm:mr-16 sm:mt-5">
           <div className="flex justify-between mb-5 sm:mb-5">
             <button
               onClick={() =>
@@ -37,7 +37,7 @@ const Footer = () => {
             </button>
           </div>
         </div>
-        <div className="flex flex-col text-white font-semibold text-center text-md rounded-lg ">
+        <div className="flex flex-col text-white font-semibold text-center text-md rounded-lg sm:text-sm sm:ml-16">
           <h4>CEDULA MEDICO GENERAL:000000000</h4>
           <h4>CEDULA DE ESPECIALIDAD:000000000</h4>
           <h4>AVISO DE PUBLICIDAD:000000000</h4>
