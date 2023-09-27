@@ -23,7 +23,7 @@ const Sidebar = (props) => {
           <img className="h-[40px] w-[40px]" src={close} alt="close" />
         </div>
         <div className="h-[50%]">
-          <ul className=" text-white text-center font-bold text-6xl leading-loose">
+          <ul className="h-full flex flex-col justify-evenly  text-white text-center font-bold text-6xl">
             {navLinks.map((link) => (
               <li key={link.id}>
                 <a href={`#${link.id}`} onClick={toggleMenu}>
@@ -33,10 +33,10 @@ const Sidebar = (props) => {
             ))}
           </ul>
         </div>
-        <div className="flex flex-col h-[50%]">
+        <div className="flex flex-col justify-evenly h-[50%]">
           <button
-            className="w-full bg-[#29a71a] flex justify-center items-center 
-          rounded-lg mb-3"
+            className="w-full h-[30%] bg-[#29a71a] flex justify-center items-center 
+          rounded-lg overflow-hidden"
             onClick={() => window.open("https://wa.me/+523314662319", "_blank")}
           >
             <img src={whatsapp} alt="whatsapp" className="w-[120px]" />
@@ -48,9 +48,9 @@ const Sidebar = (props) => {
                 "_blank"
               )
             }
-            className="w-full h-[120px] flex items-center bg-gradient-to-r from-amber-500 to-pink-500 justify-center rounded-lg mb-3"
+            className="w-full h-[30%] flex items-center bg-gradient-to-r from-amber-500 to-pink-500 justify-center rounded-lg"
           >
-            <img src={instagram} alt="instagram" className="w-[100px]" />
+            <img src={instagram} alt="instagram" className="w-[80px]" />
           </button>
           <button
             onClick={() =>
@@ -59,9 +59,9 @@ const Sidebar = (props) => {
                 "_blank"
               )
             }
-            className="w-full bg-[#1976d2] flex justify-center rounded-lg"
+            className="w-full h-[30%] bg-[#1976d2] flex justify-center rounded-lg"
           >
-            <img src={facebook} alt="facebook" className="w-[120px]" />
+            <img src={facebook} alt="facebook" className="w-[100px]" />
           </button>
         </div>
       </div>
