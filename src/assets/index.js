@@ -7,6 +7,7 @@ import lentes from './lentes.png';
 import cruz from './cruz.png';
 import ojo1 from './ojo1.png';
 import ojo2 from './ojo2.png';
+import herobackground from './herobackground.png';
 
 import service1 from './service1.png';
 import service2 from './service2.png';
@@ -29,6 +30,7 @@ export {
   cruz,
   ojo1,
   ojo2,
+  herobackground,
   hamburguer,
   close,
   service1,
