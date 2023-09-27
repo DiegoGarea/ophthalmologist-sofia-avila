@@ -10,7 +10,7 @@ import {whatsapp} from '../assets';
 const Contact = () => {
   return (
     <>
-      <div className="mb-10">
+      <div className="mb-16">
         <TypingText
           title="Agenda tu cita!"
           textStyles={`${styles.sectionHeadText} text-center`}

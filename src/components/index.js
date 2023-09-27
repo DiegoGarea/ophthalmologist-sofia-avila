@@ -6,6 +6,7 @@ import Contact from './Contact';
 import Footer from './Footer';
 import TypingText from './TypingText';
 import HeroPattern from './HeroPattern';
+import Sidebar from './Sidebar';
 
 export {
   Navbar,
@@ -16,4 +17,5 @@ export {
   Footer,
   TypingText,
   HeroPattern,
+  Sidebar,
 };
