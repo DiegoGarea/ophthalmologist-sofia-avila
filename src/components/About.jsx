@@ -12,7 +12,7 @@ const About = () => {
           Conoceme
         </h2>
       </motion.div> */}
-      <div className="mb-10">
+      <div className="mb-16">
         <TypingText
           title="Conoceme"
           textStyles={`${styles.sectionHeadText} text-center`}

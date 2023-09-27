@@ -59,7 +59,7 @@ const Services = () => {
       {/* <motion.div className="mb-10">
         <h2 className={`${styles.sectionHeadText} text-center`}>Servicios</h2>
       </motion.div> */}
-      <div className="mb-10">
+      <div className="mb-16">
         <TypingText
           title="Servicios"
           textStyles={`${styles.sectionHeadText} text-center`}

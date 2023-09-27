@@ -11,7 +11,7 @@ const navLinks = [
   },
   {
     id: 'Contact',
-    title: 'Contactame',
+    title: 'Contacto',
   },
 ];
 
@@ -36,24 +36,6 @@ const services = [
   },
 ];
 
-// const socials = [
-// {
-//   image: whatsapp,
-//   link: 'https://wa.me/+523314662319',
-//   title: 'whatsapp',
-// },
-//   {
-//     image: instagram,
-//     link: 'https://www.instagram.com/dra.dianasofiaavila/',
-//     title: 'instagram',
-//   },
-//   {
-//     image: facebook,
-//     link: 'https://www.facebook.com/profile.php?id=100095421096881',
-//     title: 'facebook',
-//   },
-// ];
-
 // este es el correo de sofia para agregar al footer dsofiaavilam@gmail.com
 
-export {navLinks, services};
+export {navLinks, services,};

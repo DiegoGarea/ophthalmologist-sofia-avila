@@ -13,7 +13,7 @@ const Footer = () => {
       >
         <div className="sm:flex sm:h-[125px]">
           <div className="flex justify-between mb-5 sm:mb-5">
-            <bottom
+            <button
               onClick={() =>
                 window.open(
                   'https://www.instagram.com/dra.dianasofiaavila/',
@@ -23,8 +23,8 @@ const Footer = () => {
               className="w-[48%] flex items-center bg-gradient-to-r from-amber-500 to-pink-500 justify-center rounded-lg"
             >
               <img src={instagram} alt="instagram" className="w-[100px]" />
-            </bottom>
-            <bottom
+            </button>
+            <button
               onClick={() =>
                 window.open(
                   'https://www.facebook.com/profile.php?id=100095421096881',
@@ -34,7 +34,7 @@ const Footer = () => {
               className="w-[48%] bg-[#1976d2] flex justify-center rounded-lg"
             >
               <img src={facebook} alt="facebook" className="w-[120px]" />
-            </bottom>
+            </button>
           </div>
         </div>
         <div className="flex flex-col text-white font-semibold text-center text-md rounded-lg ">
