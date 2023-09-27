@@ -15,8 +15,8 @@ const Hero = () => {
       >
         <img src={person} alt="person" className="w-[800px] rounded-full" />
         <div>
-          <h1 className={`${styles.heroHeadText} text-center`}>Hola!</h1>
-          <p className={`${styles.heroSubText} text-[#f3fffc] `}>
+          <h1 className={`${styles.heroHeadText} text-center mb-2`}>Hola!</h1>
+          <p className={`${styles.heroSubText} text-[#ffffff] `}>
             Soy la Dra. Sofía Ávila, oftalmóloga. Estoy aquí para cuidar de tu
             salud visual. Si tienes alguna pregunta no dudes en contactarme.
           </p>
