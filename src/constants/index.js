@@ -18,24 +18,24 @@ const navLinks = [
 const services = [
   {
     image: service1,
-    title: 'Service 1',
+    title: 'Consulta',
     description:
-      ' Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe ullam nulla, harum sunt blanditiis incidunt eos perspiciatis sit eum  adipisci nostrum sed ab vitae facilis rerum, aperiam odio enim reprehenderit!',
+      ' La consulta con un oftalmólogo es esencial para detectar problemas oculares a tiempo y encontrar soluciones adecuadas, ya sea mediante corrección visual con gafas o lentes de contacto, o el tratamiento de afecciones más serias. Estoy aquí para ayudarte en lo que necesites. ¡No dudes en agendar tu cita!',
   },
   {
     image: service2,
-    title: 'Service 2',
+    title: 'Laser',
     description:
-      ' Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe ullam nulla, harum sunt blanditiis incidunt eos perspiciatis sit eum  adipisci nostrum sed ab vitae facilis rerum, aperiam odio enim reprehenderit!',
+      ' Los beneficios de la cirugía láser incluyen precisión, recuperación rápida, menos dolor y cicatrices mínimas, además de menor tiempo de hospitalización. También ofrece resultados efectivos y personalización según las necesidades del paciente. ¡Agenda tu cita hoy mismo!',
   },
   {
     image: service3,
-    title: 'Service 3',
+    title: 'Cirugia Quirurgica',
     description:
-      ' Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe ullam nulla, harum sunt blanditiis incidunt eos perspiciatis sit eum  adipisci nostrum sed ab vitae facilis rerum, aperiam odio enim reprehenderit!',
+      ' La cirugía tradicional varía según el caso y ofrece experiencia, versatilidad y resultados probados en procedimientos médicos y quirúrgicos. La elección del procedimiento depende de cada situación en particular. Agenda tu cita',
   },
 ];
 
 // este es el correo de sofia para agregar al footer dsofiaavilam@gmail.com
 
-export {navLinks, services,};
+export {navLinks, services};

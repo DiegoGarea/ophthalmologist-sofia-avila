@@ -1,5 +1,5 @@
 import React from 'react';
-import {letras} from '../assets';
+import {letra} from '../assets';
 import {styles} from '../styles';
 import SectionWrapper from '../hoc/SectionWrapper';
 import {motion} from 'framer-motion';
@@ -18,7 +18,7 @@ const Contact = () => {
       </div>
       <div className="sm:flex sm:max-w-6xl h-[575px] justify-between sm:mx-auto mb-10 p-14 bg-blue-400 rounded-lg relative">
         <div className="flex mb-5">
-          <img src={letras} alt="letras" className="w-[400px] mb-5" />
+          <img src={letra} alt="letras" className="w-[400px] mb-5" />
         </div>
         <div className="flex flex-col text-center rounded-lg sm:w-[50%]">
           <motion.p
